@@ -1,0 +1,1 @@
+select last(latency) from latency_load where SrcPort='openflow:1:1' and DestPort='openflow:2:2' 	 
